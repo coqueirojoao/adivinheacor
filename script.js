@@ -32,6 +32,7 @@ window.onload = function sphereColor() {
   }
   item.innerText = childrens[Math.floor((Math.random() * childrens.length))].style.backgroundColor;
   answer.innerText = 'Escolha uma cor';
+  answer.style.color = 'black'
 };
 
 button.addEventListener('click', window.onload);
